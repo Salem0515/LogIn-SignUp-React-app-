@@ -1,0 +1,111 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    background-color: #fff;
+    padding-left: 30px;
+    width: 600px;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.text {
+    color: #3c009d;
+    font-size: 49px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.underline{
+    background: #3c009d;
+    width: 61px;
+    height: 6px;
+    border-radius: 9px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    gap: 25px;
+}
+
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background-color: #eaeaea;
+    border-radius: 6px;
+
+}
+
+.input img{
+    margin: 28px 147px -21px -271px;
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+    margin: -12px -37px 0px 34px;
+}
+
+.forget-password {
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+
+
+.forget-password span {
+    color: #3c009d;
+    cursor: pointer;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.submit-container {
+    display: flex;
+    margin: 60px auto;
+    gap: 30px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #3c009d;
+    border-radius: 49px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.gray{
+    background: #eaeaea;
+    color: #676767;
+}
